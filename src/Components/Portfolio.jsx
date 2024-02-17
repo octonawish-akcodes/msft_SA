@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/img2.avif";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A clear sky with some stars.";
 
 /**
  * Project list
@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Detectovert",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "It's an Ai model which will create a pattern of the movements you will make infront of your camera when you execute this program.",
+    url: "https://github.com/octonawish-akcodes/Detectovert",
   },
   {
-    title: "Web Development for Beginners",
+    title: "FacialTraitAnalyzer",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "FaceTraitsAnalyzer is a Django web application designed for age and gender detection in images. Leveraging the power of OpenCV and pre-trained models, this application allows users to upload images and receive real-time analysis of facial features. This is a Django web application that performs age and gender detection on uploaded images using OpenCV and pre-trained models.",
+    url: "https://github.com/octonawish-akcodes/FacialTraitAnalyzer",
   },
   {
-    title: "My Resume Site",
+    title: "ScriptHarbour",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "ScriptHarbour is a comprehensive suite of scripts designed to automate common system administration tasks, ensuring efficiency and reliability in managing systems across various platforms.",
+    url: "https://github.com/octonawish-akcodes/ScriptHarbour",
   },
 ];
 
